@@ -16,12 +16,13 @@ Required Versions
 2. Install [VSCode](https://code.visualstudio.com/download)
 3. Install VSCode Extension [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
-``` bash
-Note: Once you have the above installed, when you open the folder for the project in VSCode it will prompt you to open/create a dev container for the project. This will have all of the dependencies installed.
+#### Note: 
+Once you have the above installed, when you open the folder for the project in VSCode it will prompt you to open/create a dev container for the project. 
+This will have all of the dependencies installed.
 
-If not, with vscode open with key command: CMD/Ctrl + Shift + p
-Then search for and select "Reopen in Container"
-```
+If not, with vscode open use the key command: `CMD/Ctrl + Shift + p`
+
+Then search for and select `"Reopen in Container"`
 
 ---
 ### Installing Ruby and Rails on macOS
@@ -50,25 +51,24 @@ Then search for and select "Reopen in Container"
 6. Install Node.js by downloading the installer from https://nodejs.org. Choose the LTS version.
 7. Verify Node.js is installed:
 `node -v`
----
 
 ## Running the Starter App In Dev Cotainer & VScode
 Once Ruby and Rails are installed, follow these steps to get the app running:
 
-1. Clone the repository: `git clone [repo link]`
+1. Clone the repository: `git clone https://github.com/Central-RIvers-AEA/task-manager`
 2. Open the folder in Vscode
 3. There will be an alert in the bottom right to open in a dev container
-4. Open a terminal in VScode and start server: `rails server`
+4. Open a terminal in VScode and start server: `bin/dev`
 6. Visit http://localhost:3000 in your browser
 
 ## Running the Starter App Windows / Mac
 Once Ruby and Rails are installed, follow these steps to get the app running:
 
-1. Clone the repository: `git clone [repo link]`
+1. Clone the repository: `git clone https://github.com/Central-RIvers-AEA/task-manager`
 2. Move into the project `folder: cd task-manager`
 3. Install dependencies: `bundle install`
 4. Set up the database: `rails db:migrate`
-5. Start the server: `rails server`
+5. Start the server: `bin/dev`
 6. Visit http://localhost:3000 in your browser
 
 If you run into any issues getting the app running, please reach out rather than spending a lot of time troubleshooting setup — we want this time spent on the actual work.
@@ -92,7 +92,7 @@ Specifically, we'd like you to:
 
 
 ## What We're Looking For
-We're not expecting Rails expertise. We mainly want to see how you approach building a simple UI, how you structure your HTML, and how you think about the user experience. Clean code and a readable layout matter more to us than clever solutions.
+We're not expecting Rails expertise. We mainly want to see how you approach building a simple UI, how you structure your HTML, adapt to a new and different kind of code base and how you think about the user experience.
 
 ## Submission
 Push your work to a GitHub repository and send us the link. Please include a short README note explaining any decisions you made and anything you'd do differently with more time.
